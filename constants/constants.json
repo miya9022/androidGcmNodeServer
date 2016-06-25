@@ -1,5 +1,7 @@
 {  
    "gcm_api_key" :"AIzaSyB230V3kk2wg-_E1ghjcYIUrd52tJ_l0LE",
+
+   "mongo_db_server" :"mongodb://localhost:27017/",
    
    "error" : {  
 

@@ -1,3 +1,5 @@
+var constants = require('../constants/constants.json');
+
 var mongoose = require('mongoose');
 
 var Schema = mongoose.Schema;
@@ -10,6 +12,6 @@ var deviceSchema = mongoose.Schema({
 	
 });
 
-mongoose.connect('mongodb://localhost:27017/node-android-push');
+mongoose.connect(constants.mongo_db_server + 'node-android-push');
 
 module.exports = mongoose.model('device', deviceSchema);       
