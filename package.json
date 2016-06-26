@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "start": "supervisor app.js"
+  },
+  "main": "app.js"
   "name": "gcm-push",
   "version": "0.0.1",
   "main": "app.js",
