@@ -12,6 +12,6 @@ var deviceSchema = mongoose.Schema({
 	
 });
 
-mongoose.connect(constants.mongo_db_server + 'node-android-push');
+mongoose.connect(constants.mongo_db_server + 'android');
 
 module.exports = mongoose.model('device', deviceSchema);       
